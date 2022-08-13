@@ -1,0 +1,91 @@
+:root{
+    --green: #008000;
+    --border: solid;
+    --blue: #0000ff;
+    --atv2: rgb(230,28,19);
+    --yellow:yellow;
+    --pink: pink;
+    --gray: gray;
+}
+
+
+.ord{
+    border: solid;
+    float: left;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.nord{
+    border: solid;
+    float: right;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+
+#t1{
+    color: #882020;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+#t2{
+    color: #882020;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+#t3{
+    color: #882020;
+    position: absolute;
+    top: 80%;
+    left: 7%;
+}
+
+
+table{
+    font-style: none;
+    position: absolute;
+    top: 60%;
+    left: 7%;
+    border: dotted 8px var(--atv2);
+
+}
+#at1{
+    font-style: italic;
+    color: var(--blue);
+}
+ td{
+    border: dotted 2px var(--atv2);
+}
+
+.revisao{
+    font-style: oblique;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+#p{
+    position: absolute;
+    top: 92%;
+    left: 7%;
+    background-color: aqua;
+    font-size: large;
+}
+.paragrafo-1{
+    color: var(--green);
+}
+.paragrafo-2 {
+    color: var(--pink);
+}
+.paragrafo-3 {
+    color: var(--yellow);
+}
+.paragrafo-4 {
+    color: var(--gray);
+}
+
+
